@@ -1,11 +1,12 @@
 import { Link } from "react-router";
+import logo1 from "./assets/logo1.png";
 
 const Header = () => {
   return (
     <div>
       <nav className="flex justify-between  bg-purple-50">
         <div className="text-purple-700 text-2xl font-bold m-2 ml-7 flex">
-          <img src="src/assets/logo1.png" className="w-[35px] h-[35px]" />
+          <img src={logo1} className="w-[35px] h-[35px]" />
           <span> BlogShelf</span>
         </div>
         <div className="flex  mr-7">
